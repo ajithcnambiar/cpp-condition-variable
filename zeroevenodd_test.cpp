@@ -14,8 +14,8 @@ TEST(ZeroEvenOdd, Positive){
     ZeroOddEven object(10);
     function<void(string&, int)> fp = store_result();
     std::thread t1(&ZeroOddEven::zero, &object, fp);
-    std::thread t2(&ZeroOddEven::even, &object, fp);
     std::thread t3(&ZeroOddEven::odd, &object, fp);
+    std::thread t2(&ZeroOddEven::even, &object, fp);
 
     t1.join();
     t2.join();

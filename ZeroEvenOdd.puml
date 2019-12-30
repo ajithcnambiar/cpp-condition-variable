@@ -8,10 +8,9 @@ class ZeroEvenOdd{
     -bool done;
     -void incCounter();
     -void togglegenerate0();
-    -int incCounter;
     +ZeroOddEven(int n);
-    +void odd(function<void(int)> store_result);
-    +void even(function<void(int)> store_result);
-    +void zero(function<void(int)> store_result);
+    +void odd(std::function<void(std::string&, int)>);
+    +void even(std::function<void(std::string&, int)>);
+    +void zero(std::function<void(std::string&, int)>);
 }
 @enduml
