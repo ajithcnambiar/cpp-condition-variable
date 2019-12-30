@@ -9,6 +9,7 @@ For a given integer n:
 
 ## Design
 Class diagram for _ZeroEvenOdd_ is as below:
+
 ![alt text](ZeroEvenOdd.png)
 
 ## Test
