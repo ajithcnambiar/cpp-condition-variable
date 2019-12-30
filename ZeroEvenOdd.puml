@@ -1,5 +1,4 @@
 @startuml
-ZeroEvenOdd -> print
 class ZeroEvenOdd{
     -int n;
     -int counter;
