@@ -1,0 +1,18 @@
+@startuml
+ZeroEvenOdd -> print
+class ZeroEvenOdd{
+    -int n;
+    -int counter;
+    -std::condition_variable cv
+    -std::mutex m;
+    -bool generate0;
+    -bool done;
+    -void incCounter();
+    -void togglegenerate0();
+    -int incCounter;
+    +ZeroOddEven(int n);
+    +void odd(function<void(int)> store_result);
+    +void even(function<void(int)> store_result);
+    +void zero(function<void(int)> store_result);
+}
+@enduml
