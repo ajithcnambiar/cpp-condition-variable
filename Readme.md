@@ -12,5 +12,21 @@ Class diagram for _ZeroEvenOdd_ is as below:
 ![alt text](ZeroEvenOdd.png)
 
 ## Test
-```make build```
-```make run```
+```console
+make build
+
+make run
+```
+
+```console
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ZeroEvenOdd
+[ RUN      ] ZeroEvenOdd.Positive
+[       OK ] ZeroEvenOdd.Positive (1 ms)
+[----------] 1 test from ZeroEvenOdd (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+```
